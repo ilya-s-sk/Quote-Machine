@@ -1,0 +1,73 @@
+:root {
+    --color: #16a085;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: color 1s, background-color 1s;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color);
+    min-height: 100vh;
+    padding-top: 150px;
+}
+#quote-box {
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#quote-text-container {
+    padding: 20px;
+    padding-left: 10px;
+}
+#quote-text {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--color);
+    line-height: 1.5em;
+}
+#quote-text::before{
+    content: '“';
+    font-size: 90px;
+    position: relative;
+    right: 10px;
+    top: 32px;
+}
+#quote-author{
+    font-size: 20px;
+    text-align: end;
+    color: var(--color);
+}
+#quote-btn-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+.btn {
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    background-color: var(--color);
+}
+.btn:hover {
+    opacity: 0.9;
+}
+#quote-btn {
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+}
