@@ -1,4 +1,4 @@
-Quote Machine project.
+# Quote Machine project.
 
 Quote machine allows get random quote and tweet it. 
 
